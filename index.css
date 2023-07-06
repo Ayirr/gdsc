@@ -124,6 +124,10 @@ body{
     margin: 56px 133px 0 0;
 }
 
+#best:hover,#travel:hover,#built:hover,.category:hover{
+    text-decoration:underline;
+}
+
 #woman{
     z-index: -1;
 }
@@ -477,6 +481,12 @@ body{
     
 }
 
+#email{
+    margin-top: 20px;
+    color: #686D77;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #input{
     width: 421px;
     line-height: 68px;
@@ -761,4 +771,8 @@ body{
     width: 45px;
     height: 45px;
     flex-shrink: 0;
+}
+
+html {
+    cursor: url("icons8-cursor-30\ \(1\).png"),auto;
 }
